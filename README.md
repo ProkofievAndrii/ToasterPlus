@@ -52,7 +52,48 @@ To display a basic toast notification:
 Toast(message: "Hello, Toaster!")
 ```
 
+### Queue Management
+
+### Cancel a Specific Toast
+
+You can save a Toast instance to a variable and cancel it if needed:
+
+```swift
+let toast = Toast(message: "Cancelable Toast")
+toast.cancel()
+```
+
+To cancel the currently displayed toast:
+
+```swift
+ToastCenter.default.cancelCurrentToast()
+```
+
+To clear the entire toast queue:
+
+```swift
+ToastCenter.default.cancelAll()
+```
+
 ### Advanced Usage
+
+### Display Toast with Attributed Text
+
+To show a toast with custom styles using NSAttributedString:
+
+```swift
+let attributedText = NSAttributedString(
+    string: "Attributed Toast",
+    attributes: [
+        .foregroundColor: UIColor.red,
+        .backgroundColor: UIColor.yellow,
+        .font: UIFont.boldSystemFont(ofSize: 18),
+        .underlineStyle: NSUnderlineStyle.single.rawValue
+    ]
+)
+
+Toast(attributedMessage: attributedText, position: .bottomCenter)
+```
 
 ### Customize Appearance
 
@@ -67,6 +108,7 @@ Toast(message: "Custom Toast", appearance: appearance)
 ```
 
 ### Predefined Styles
+
 ```swift
 Toast.success(message: "Operation completed successfully!")
 Toast.error(message: "Something went wrong!")
