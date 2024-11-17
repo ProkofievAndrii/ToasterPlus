@@ -54,8 +54,6 @@ Toast(message: "Hello, Toaster!")
 
 ### Queue Management
 
-### Cancel a Specific Toast
-
 You can save a Toast instance to a variable and cancel it if needed:
 
 ```swift

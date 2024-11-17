@@ -20,7 +20,8 @@ let package = Package(
         .target(
             name: "Toaster",
             dependencies: [],
-            path: "Sources"
+            path: "Sources",
+            exclude: ["../Demo"]
         ),
         .testTarget(
             name: "ToasterTests",
