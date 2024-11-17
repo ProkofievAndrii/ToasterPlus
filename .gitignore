@@ -1,0 +1,19 @@
+
+# macOS
+.DS_Store
+
+# Xcode
+build/
+*.xcworkspace
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
