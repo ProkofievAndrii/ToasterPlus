@@ -15,6 +15,8 @@
 		C68A0BE22CE93905004A7F9F /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A0BDB2CE93905004A7F9F /* ToastCenter.swift */; };
 		C68A0BE72CE93A34004A7F9F /* Toaster.h in Headers */ = {isa = PBXBuildFile; fileRef = C68A0BE62CE93A34004A7F9F /* Toaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C68A0BE92CE959B1004A7F9F /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A0BE82CE959B1004A7F9F /* KeyboardManager.swift */; };
+		C68A0BEF2CEA5BE8004A7F9F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C68A0BEC2CEA5BE8004A7F9F /* LICENSE */; };
+		C68A0BF02CEA5BE8004A7F9F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C68A0BEE2CEA5BE8004A7F9F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		C68A0BDB2CE93905004A7F9F /* ToastCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastCenter.swift; sourceTree = "<group>"; };
 		C68A0BE62CE93A34004A7F9F /* Toaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toaster.h; sourceTree = "<group>"; };
 		C68A0BE82CE959B1004A7F9F /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
+		C68A0BEC2CEA5BE8004A7F9F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C68A0BEE2CEA5BE8004A7F9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		C68A0B5F2CE908D5004A7F9F = {
 			isa = PBXGroup;
 			children = (
+				C68A0BEC2CEA5BE8004A7F9F /* LICENSE */,
+				C68A0BEE2CEA5BE8004A7F9F /* README.md */,
 				C68A0B932CE90915004A7F9F /* Demo.xcodeproj */,
 				C68A0B6B2CE908D5004A7F9F /* Sources */,
 				C68A0B6A2CE908D5004A7F9F /* Products */,
@@ -177,6 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68A0BF02CEA5BE8004A7F9F /* README.md in Resources */,
+				C68A0BEF2CEA5BE8004A7F9F /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
